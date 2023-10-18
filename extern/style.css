@@ -25,10 +25,19 @@ background-color: var(--green2);
  
 }
 .nav-link{
+  
   padding: 7px;
   text-decoration: none;
 }
+.nav:hover{
+  background-color: #5a92ad;
+}
 .nav-link:hover{
+  font-family: 'Varela Round', "Ariel";
+  font-size: 24px;
+  background-color: var(--bs-blue);
+  border-radius: 10px;
+  
   color: pink;
 }
 .background-text-title{
@@ -230,4 +239,37 @@ input[type=submit]:hover {
   padding: 20px;
   margin-left: 28%;
   margin-right: 28%;
+}
+
+.roos{
+  padding-top: 0%;
+  background-color: pink;
+}
+table{
+  margin-left: 35%;margin-right: 35%;
+  background-color: white;
+  border: solid;
+  border-radius: 10px;
+  border-width: 0px;
+  border-collapse: collapse;
+}
+.eerstekolom{
+  background: var(--oranje-thomasmore);
+  width: 75px;
+  color: white;
+  text-align: center;
+}
+
+td{
+  padding: 10px;
+  border-width: 1px;
+  border: solid gray;
+  border-width: 0px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.blauweachtergrond{
+  color: white;
+  background-color: var(--blauw-thomasmore);
 }
